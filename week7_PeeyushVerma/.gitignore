@@ -1,0 +1,39 @@
+# Project Specific Data & Logs
+data/
+vectorstore/
+logs/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Build / Packaging
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+*.egg
+
+# IDE / Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Streamlit specific
+.streamlit/secrets.toml
